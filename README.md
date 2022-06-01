@@ -4,6 +4,8 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
 
 ### Paper
 
+[Architecture](Architecture.pdf)
+
 [[arXiv]](https://arxiv.org/abs/2203.01784) [[Paper PDF]](https://arxiv.org/pdf/2203.01784.pdf)
 
 ### Setting up the environment
@@ -40,12 +42,20 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
     - Quit the demo with key `q`
 
 ### How to evaluate on DAVIS
-7. CiVOS_for_DAVIS.py
-8. CiVOS_pipeline.py
+1. Adapt the paths and variables of `EXAMPLE_DEBUGGING.yml`
+2. Adapt and lauch the bash file `CiVOS_evaluation_script_example.sh`
+3. Read .csv files results with `Summarize_with_DAVIS_arbitrary_report.py`
 
+### Results
 
-
-
+| Methods   | Training interaction | Testing interaction | R-AUC-F&F	| AUC-J&F  | J&F@60s
+| ---       | ---                  | ---                 | ---       | ---      | --- |
+| MANet     | Scribbles            | Scribbles           | 0.72      | 0.79     | 0.79
+| ATNet     | Scribbles            | Scribbles           | 0.75      | 0.80     | 0.80
+| MiVOS     | Scribbles            | Scribbles           | **0.81**  | **0.87** | **0.88**
+| GIS-RAmap | Scribbles            | Scribbles           | 0.79      | 0.86     | 0.87
+| MiVOS     | Clicks               | Clicks              | 0.70      | 0.78     | 0.79
+| CiVOS     | Clicks               | Clicks              | **0.76**  | **0.83** | **0.84**
 
 ### Credits
 
