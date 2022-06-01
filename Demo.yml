@@ -1,0 +1,15 @@
+path_2_video  : "../DAVIS/2017/trainval/JPEGImages/480p/boat"
+nbr_of_objects: 1
+
+Standard_params:
+  prop_model  : ./saves/propagation_model.pth
+  fusion_model: ./saves/fusion.pth
+  inter_model : ./saves/coco_lvis_h18s_itermask.pth
+
+interaction_params:
+  brs_mode     : f-BRS-B
+  use_soft_mask: true
+  pred_thr     : 0.5
+  prev_mask    : true
+  use_soft_in_prev_mask: true
+  aggregation_vujas    : true
