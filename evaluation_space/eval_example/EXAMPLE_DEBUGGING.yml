@@ -1,0 +1,32 @@
+Visualization: True # If set to true, set max_time to null
+
+DAVIS_Chall:
+  subset: val #train, val
+  max_interactions  : 8
+  max_time          : 30 # Official --> 30s, can be set to null to let the framework complete the task
+  metric_to_optimize: J_AND_F #J, F or J_AND_F
+  report_davis_dir  : ../output
+  use_next_mask     : false  # True --> Give next frame, False --> Let Davis framework decide based on IoU pred/GT
+
+Standard_params:
+  path_2_davis: ../DAVIS/2017
+  prop_model  : ./saves/propagation_model.pth
+  fusion_model: ./saves/fusion.pth
+  inter_model  : ./saves/coco_lvis_h18s_itermask.pth
+  save_mask   : false
+
+RiTM_params:
+  brs_mode     : f-BRS-B
+  use_soft_mask: true
+  pred_thr     : 0.5
+  prev_mask    : true
+  use_soft_in_prev_mask: true
+  aggregation_vujas    : true
+
+
+CGS : 1   # Click Generating Strategy (GCS): 1,2 and 3 (See paper for more details)
+limit_for_points: 1  # --> Put a high value like 1000 in order to take all interactions
+minimal_region_size: 0  # Can be a value also, e.g., stop reducing the size until it is for 4 times smaller and now look
+                        # for the click coordinates. If 0, then reduce until the central point is found.
+minimal_area_to_considere: 100  # Minimal area in pixels to considere for a click prediction, 0 if every area to be considered
+radius: 5
