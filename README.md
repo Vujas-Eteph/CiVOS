@@ -48,14 +48,15 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
 
 ### Results
 
-| Methods   | Training interaction | Testing interaction | R-AUC-F&F	| AUC-J&F  | J&F@60s
-| ---       | ---                  | ---                 | ---       | ---      | --- |
-| MANet     | Scribbles            | Scribbles           | 0.72      | 0.79     | 0.79
-| ATNet     | Scribbles            | Scribbles           | 0.75      | 0.80     | 0.80
-| MiVOS     | Scribbles            | Scribbles           | **0.81**  | **0.87** | **0.88**
-| GIS-RAmap | Scribbles            | Scribbles           | 0.79      | 0.86     | 0.87
-| MiVOS     | Clicks               | Clicks              | 0.70      | 0.78     | 0.79
-| CiVOS     | Clicks               | Clicks              | **0.76**  | **0.83** | **0.84**
+| Methods   | Training interaction | Testing interaction | R-AUC-F&F	| AUC-J&F  | J&F@60s  |
+| ---       | ---                  | ---                 | ---       | ---      | ---      |
+| MANet     | Scribbles            | Scribbles           | 0.72      | 0.79     | 0.79     |
+| ATNet     | Scribbles            | Scribbles           | 0.75      | 0.80     | 0.80     |
+| MiVOS     | Scribbles            | Scribbles           | **0.81**  | **0.87** | **0.88** |
+| GIS-RAmap | Scribbles            | Scribbles           | 0.79      | 0.86     | 0.87     |
+| MiVOS     | Scribbles            | Clicks              | 0.53      | 0.58     | 0.59     |
+| MiVOS     | Clicks               | Clicks              | 0.70      | 0.78     | 0.79     |
+| CiVOS     | Clicks               | Clicks              | **0.76**  | **0.83** | **0.84** |
 
 ### Credits
 
