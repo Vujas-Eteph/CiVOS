@@ -16,7 +16,9 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
    - torchvision `0.11.1`
    - OpenCV `4.5.4` (also opencv-python-headless)
    - Cython `0.29.24`
+   - scikit-learn  `0.20.3`
    - scikit-image  `0.18.3`
+   - scipy `1.7.2`
    - Pillow `8.4.0`
    - imgaug `0.4.0`
    - albumentations `1.10`
