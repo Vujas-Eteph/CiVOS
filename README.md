@@ -50,15 +50,23 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
 
 ### Results
 
-| Methods   | Training interaction | Testing interaction | R-AUC-F&F	| AUC-J&F  | J&F@60s  |
+Quantitative evaluation on the interactive DAVIS 2017 validation set.
+| Methods   | Training interaction | Testing interaction | R-AUC-J&F	| AUC-J&F  | J&F@60s  |
 | ---       | ---                  | ---                 | ---       | ---      | ---      |
 | MANet     | Scribbles            | Scribbles           | 0.72      | 0.79     | 0.79     |
 | ATNet     | Scribbles            | Scribbles           | 0.75      | 0.80     | 0.80     |
 | MiVOS     | Scribbles            | Scribbles           | **0.81**  | **0.87** | **0.88** |
 | GIS-RAmap | Scribbles            | Scribbles           | 0.79      | 0.86     | 0.87     |
-| MiVOS     | Scribbles            | Clicks              | 0.53      | 0.58     | 0.59     |
 | MiVOS     | Clicks               | Clicks              | 0.70      | 0.78     | 0.79     |
 | CiVOS     | Clicks               | Clicks              | **0.76**  | **0.83** | **0.84** |
+
+
+R-AUC-J&F results on the DAVIS 2017 validation set for CiVOS.
+| Maximal Number of Clicks  | 1     | 2    | 3    | 4    | 5    | 6    | 7    |
+| ---                       |---    |---   |---   |---   |---   |---   |---   |
+| Interaction Strategy 1    | 0.69  | -    | -    | -    | -    | -    | -    |
+| Interaction Strategy 2    | 0.72  | 0.76 | 0.76 | 0.75 | 0.75 | 0.75 | 0.76 |
+| Interaction Strategy 3    | 0.74  | 0.77 | 0.78 | 0.78 | 0.78 | 0.78 | 0.78 |
 
 ### Credits
 
