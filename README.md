@@ -14,7 +14,7 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
    - SciPy `1.7.2`
    - PyTorch `1.10.0`
    - torchvision `0.11.1`
-   - OpenCV `4.5.4` (also opencv-python-headless)
+   - OpenCV `4.5.4` (opencv-python-headless if you don't want to use the demo)
    - Cython `0.29.24`
    - scikit-learn  `0.20.3`
    - scikit-image  `0.18.3`
