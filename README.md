@@ -27,15 +27,15 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
    - easydict `1.9`
    - future   `0.18.2`
    - cffi     `1.15.0`
-   - davis-interactive `1.0.4` (<https://github.com/albertomontesg/davis-interactive>)
+   - [davis-interactive](https://github.com/albertomontesg/davis-interactive) `1.0.4` 
    - networkx `2.6.3` for DAVIS
    - gdown `4.2.0` for downloading pretrained models 
 2. Download the DAVIS dataset `download_dataset.py`
 3. Download the pretrained models `download_models.py`
 
 ### Guide for Demo
-1. Adapt the paths and variables in `Demo.yml`
-2. Launch `CiVOS_Demo.py` (*Nota bene: only 1 object can be segmented in the Demo*)
+1. Adapt the paths and variables in [`Demo.yml`](Demo.yml)
+2. Launch [`CiVOS_Demo.py`](CiVOS_Demo.py) (*Nota bene: only 1 object can be segmented in the Demo*)
 3. Mouse and keyboard bindings:
     - Positive interaction: `left mouse click`
     - Negative interaction: `right mouse click`
@@ -44,9 +44,9 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
     - Quit the demo with key `q`
 
 ### How to evaluate on DAVIS
-1. Adapt the paths and variables of `EXAMPLE_DEBUGGING.yml`
-2. Adapt and lauch the bash file `CiVOS_evaluation_script_example.sh`
-3. Read .csv files results with `Summarize_with_DAVIS_arbitrary_report.py`
+1. Adapt the paths and variables of [`EXAMPLE_DEBUGGING.yml`](evaluation_space/eval_example/EXAMPLE_DEBUGGING.yml)
+2. Adapt and lauch the bash file [`CiVOS_evaluation_script_example.sh`](CiVOS_evaluation_script_example.sh)
+3. Read .csv files results with [`Summarize_with_DAVIS_arbitrary_report.py`](evaluation_space/Summarize_with_DAVIS_arbitrary_report.py)
 
 ### Results
 
