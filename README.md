@@ -61,7 +61,7 @@ Quantitative evaluation on the interactive DAVIS 2017 validation set.
 | CiVOS     | Clicks               | Clicks              | **0.76**  | **0.83** | **0.84** |
 
 
-R-AUC-J&F results on the DAVIS 2017 validation set for CiVOS.
+R-AUC-J&F results on the DAVIS 2017 validation set for CiVOS by generating clicks in three different ways.
 | Maximal Number of Clicks  | 1     | 2    | 3    | 4    | 5    | 6    | 7    |
 | ---                       |---    |---   |---   |---   |---   |---   |---   |
 | Interaction Strategy 1    | 0.69  | -    | -    | -    | -    | -    | -    |
