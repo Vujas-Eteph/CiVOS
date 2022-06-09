@@ -32,6 +32,7 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
    - [davis-interactive](https://github.com/albertomontesg/davis-interactive) `1.0.4` 
    - networkx `2.6.3` for DAVIS
    - gdown `4.2.0` for downloading pretrained models 
+   - tensorboard `2.4.1`
 2. Download the DAVIS dataset `download_dataset.py`
 3. Download the pretrained models `download_models.py`
 
