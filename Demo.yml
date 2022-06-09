@@ -1,4 +1,4 @@
-path_2_video  : "../DAVIS/2017/trainval/JPEGImages/480p/boat"
+path_2_video  : "./DAVIS/2017/trainval/JPEGImages/480p/boat"
 nbr_of_objects: 1
 
 Standard_params:
