@@ -33,8 +33,8 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
    - networkx `2.6.3` for DAVIS
    - gdown `4.2.0` for downloading pretrained models 
    - tensorboard `2.4.1`
-2. Download the DAVIS dataset `download_dataset.py`
-3. Download the pretrained models `download_models.py`
+2. Download the DAVIS dataset [`download_datasets.py`](download_datasets.py)
+3. Download the pretrained models [`download_models.py`](download_models.py)
 
 ### Guide for Demo
 1. Adapt the paths and variables in [`Demo.yml`](Demo.yml)
