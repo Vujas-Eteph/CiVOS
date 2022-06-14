@@ -1,7 +1,6 @@
 import os
 import gdown
 import zipfile
-from scripts import resize_youtube
 
 
 LICENSE = """
