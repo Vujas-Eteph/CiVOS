@@ -73,9 +73,9 @@ R-AUC-J&F results on the DAVIS 2017 validation set for CiVOS by generating click
 
 ### Credits
 
-**RiTM**: [GitHub](https://github.com/hkchengrex/MiVOS), [Paper](https://arxiv.org/pdf/2103.07941.pdf)
+**RiTM**: [GitHub](https://github.com/saic-vul/ritm_interactive_segmentation), [Paper](https://arxiv.org/pdf/2103.07941.pdf)
 
-**MiVOS**: [GitHub](https://github.com/saic-vul/ritm_interactive_segmentation), [Paper](https://arxiv.org/pdf/2103.07941.pdf)
+**MiVOS**: [GitHub](https://github.com/hkchengrex/MiVOS), [Paper](https://arxiv.org/pdf/2103.07941.pdf)
 
 **DeepLabV3Plus**: [GitHub](https://github.com/VainF/DeepLabV3Plus-Pytorch), [Paper](https://arxiv.org/pdf/1802.02611.pdf)
 
