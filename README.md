@@ -10,7 +10,19 @@ Stephane Vujasinovic, Sebastian Bullinger, Stefan Becker, Norbert Scherer-Negenb
 
 ![Architecture](Architecture.jpg)
 
-[[arXiv]](https://arxiv.org/abs/2203.01784) [[Paper PDF]](https://arxiv.org/pdf/2203.01784.pdf)
+[[Paper]](https://ieeexplore.ieee.org/document/9897460) [[ArXiv]](https://arxiv.org/abs/2203.01784)  [[PDF]](https://arxiv.org/pdf/2203.01784.pdf)
+```bibtex
+@INPROCEEDINGS{Vujasinović_2021_ICIP,
+  author={Vujasinović, Stéphane and Bullinger, Sebastian and Becker, Stefan and Scherer-Negenborn, Norbert and Arens, Michael and Stiefelhagen, Rainer},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Revisiting Click-Based Interactive Video Object Segmentation}, 
+  year={2022},
+  pages={2756-2760},
+  doi={10.1109/ICIP46576.2022.9897460}}
+
+```
+<br clear="left"/>
+
 
 ### Setting up the environment
 1. The framework is built with Python 3.7 and relies on the following packages:
